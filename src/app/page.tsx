@@ -17,16 +17,14 @@ export default function Home() {
       <Button text="I'm feeling Lucky" />
     </div>
     <div className="flex justify-center pt-4">
-      <div className="text-white">
-        Google offered In:{" "}
-        <span>
-          <span className="pl-2 text-xs text-[#93BBF4]">Hausa</span>
-          <span className="pl-2 text-xs text-[#93BBF4]">Igbo</span>
-          <span className="pl-2 text-xs text-[#93BBF4]">Ede Yoruba</span>
-          <span className="pl-2 text-xs text-[#93BBF4]">Nigeria Pidgin</span>
-        </span>
-      </div>
-    </div>
+  <div className="text-white flex flex-wrap items-center gap-4">
+    <span className="text-[11px] sm:text-sm">Google offered in:</span>
+    <span className="text-[9.5px] sm:text-xs text-[#93BBF4]">Hausa</span>
+    <span className="text-[9.5px] sm:text-xs text-[#93BBF4]">Igbo</span>
+    <span className="text-[9.5px] sm:text-xs text-[#93BBF4]">Ede Yoruba</span>
+    <span className="text-[9.5px] sm:text-xs text-[#93BBF4]">Nigeria Pidgin</span>
+  </div>
+</div>
   </div>
 
   {/* Sticky Footer */}
