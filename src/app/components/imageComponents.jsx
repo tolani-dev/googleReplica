@@ -1,20 +1,20 @@
 import Image from "next/image"
 export default function ImageComponents({}) {
     return(
-<div className="flex flex-row gap-4 h-auto justify-center items-end mb-4">
+<div className="flex flex-row gap-4 h-auto justify-center items-end pt-0 sm:pt-10">
   <Image
     src="/google2.png"
     priority
     alt="Seasonal Holidays 2024"
     height={400}
     width={500}
-    className="w-full max-w-[300px] md:max-w-[500px] h-auto"
+    className="w-full max-w-[300px] md:max-w-[520px] h-auto"
   />
-  <button className="self-end">
+  <button className="self-end pb-5">
     <svg
       className="bg-[#28292A] rounded-full p-2"
-      height="30"
-      width="30"
+      height="32"
+      width="32"
       stroke="white"
       strokeWidth="0.1"
       fill="white"
