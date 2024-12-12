@@ -17,7 +17,7 @@ export default function Home() {
       <Button text="I'm feeling Lucky" />
     </div>
     <div className="flex justify-center pt-4">
-      <div>
+      <div className="text-white">
         Google offered In:{" "}
         <span>
           <span className="pl-2 text-xs text-[#93BBF4]">Hausa</span>
