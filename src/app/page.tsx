@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeaderComponent from "./components/headerComponent"
 import ImageComponents from "./components/imageComponents"
 import Input from "./components/inputComponent"
