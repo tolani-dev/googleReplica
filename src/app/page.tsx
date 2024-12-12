@@ -6,7 +6,7 @@ import Footer from "./components/footerComponent"
 
 export default function Home() {
   return (
-<div className="flex flex-col min-h-screen p-4 gap-8 sm:p-2">
+<div className="flex flex-col min-h-screen gap-8 sm:p-2">
   {/* Main Content */}
   <div className="flex-grow p-8 gap-16 sm:p-5 font-[family-name:var(--font-geist-sans)]">
     <HeaderComponent />
